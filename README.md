@@ -1,4 +1,5 @@
-# Huffman-Coding
+<h1 align="center">Huffman Coding</h1>
+
 ## Aim
 To implement Huffman coding to compress the data using Python.
 ## Software Required
@@ -17,7 +18,7 @@ Print the characters and its huffmancode.
 ## Program:
 ``` Python
 # Get the input String
-string = 'from robomaster import robot'
+string = 'HI Iam Sai Darshan'
 class NodeTree(object):
     def __init__(self, left=None, right=None): 
         self.left = left
@@ -63,6 +64,6 @@ for (char, frequency) in freq:
 ```
 ## Output:
 ### Print the characters and its huffmancode
-![inp](1.png)
+![inp](hc.png)
 ## Result
 Thus the huffman coding was implemented to compress the data using python programming.
